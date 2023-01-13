@@ -1,0 +1,15 @@
+.register{
+    background-color: $color_primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    &__title{
+        color:$color_primary;
+        text-align: center;
+        font-size:50px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+}
